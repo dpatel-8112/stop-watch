@@ -1,0 +1,51 @@
+body{
+    background-color: rgba(0,0,0);
+    color: white;
+    height: 100%;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0,0,0,0.8);
+    border: 1px solid black;
+    width: fit-content;
+    text-align: center;
+    padding:30px;
+    
+}
+img{
+    width: 200px;
+}
+#heading{
+    color: red;
+    font-size: 35px;
+
+
+}
+#seconds, #tens, .dots{
+    font-size: 2em;
+    font-weight: bold;
+}
+button{
+    border-radius: 30px;
+    background: black;
+    color: white;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 18px 10px;
+    width: 150px;
+    margin: 10px;
+    outline: none;
+    margin-top: 20px;
+}
+button:hover{
+    transition: all 0.5s ease-in-out;
+    background: #fff;
+    color: black;
+    border: 2px solid white;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
